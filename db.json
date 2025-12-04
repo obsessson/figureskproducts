@@ -39,6 +39,23 @@
     "price":1200,
     "author_id":2,
     "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
-    }
+    },
+     {
+    "id":2,
+    "name": "Skate covers",
+    "description": "Skate covers",
+    "price":1000,
+    "author_id":2,
+    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
+    },
+    {
+     "id":2,
+    "name": "Headband",
+    "description": "Headband",
+    "price":900,
+    "author_id":2,
+    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
+    },
   ]
 }
+
