@@ -30,7 +30,7 @@
     "description": "Termo Leggings",
     "price":1500,
     "author_id":1,
-    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
+    "photo_url":"https://worldg.ua/image/cache/catalog/product_photo/82/ice-030-01-3-858x1200.jpg"
     },
     {
       "id":1,
@@ -38,7 +38,7 @@
     "description": "Termo blouse",
     "price":1200,
     "author_id":2,
-    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
+    "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNAeBKxIRhSjCmNLaaANyb-xigjiUvqwMDg&s"
     },
      {
     "id":2,
@@ -46,7 +46,7 @@
     "description": "Skate covers",
     "price":1000,
     "author_id":2,
-    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
+    "photo_url":"https://www.goldenice.com.ua/wp-content/uploads/2021/12/photo_2024-03-23-19.24.27.jpeg"
     },
     {
      "id":2,
@@ -54,8 +54,8 @@
     "description": "Headband",
     "price":900,
     "author_id":2,
-    "photo_url":"https://contents.mediadecathlon.com/p541741/k$1a53e15ae81167130094328bc1ba9cc3/cover.jpg?f=800x800"
-    },
+    "photo_url":"https://willisport.hu/media/image/img-product/6608/thumb/fejpant-sagester-sagester-537-strassz_912_20240502142010.jpg"
+    }
   ]
 }
 
