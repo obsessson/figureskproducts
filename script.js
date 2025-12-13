@@ -1,6 +1,6 @@
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://market-c850.restdb.io/rest/';
+let url = 'https://market-c850.restdb.io/rest';
 
 xhr.open('GET',url + '/product');
 
