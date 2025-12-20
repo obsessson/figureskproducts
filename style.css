@@ -51,6 +51,25 @@ button {
     min-width: 50%;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.admin_page_link {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0.75rem 0.5rem;
+    border: 1px solid #ffffff;
+}
+
+.admin_page_link:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
 /* -----Cart----- */
 
 #cart-button {
@@ -181,48 +200,17 @@ button {
     border-radius: 1rem;
 }
 
-/* -----Responsive----- */
+/* Admin */
 
-@media screen and (max-width: 1000px){
-    #products-grid, #user-products-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.form-group {
+    margin: 0.2rem 0;
 }
 
-@media screen and (max-width: 600px){
-    #products-grid, #user-products-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.form-group label {
+    display: block;
 }
 
-.profile-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1rem;
-}
-
-.user-products {
-position: relative;
-}
-
-.user-products h1 {
-position: absolute;
-left: 2rem;
-top: -1.2rem;
-color: #ffffff;
-text-shadow: 0 0 10px #000000;
-}
-
-#user-products-grid {
-display: grid;
-grid-template-columns: repeat (4, 1fr);
-background-color: rgb(255, 255, 255);
-padding: 2rem;
-gap: 1rem;
-border-radius: 1rem;
-}
+/* Modal */
 
 .modal {
     display: none; /* Hidden by default */
@@ -245,3 +233,81 @@ border-radius: 1rem;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
   }
+  
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #order-block {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .item {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1rem;
+  }
+
+  #order-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  #order-form input,
+  #add_product_form input{
+      font-size: 1.5rem;
+      padding: 0.4rem 1rem;
+  }
+
+  #add_product_form textarea {
+    font-size: 1.5rem;
+    padding: 0.4rem 1rem; 
+  }
+
+  .admin_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  #admin_page_orders .product *{
+      font-weight: 500;
+      padding: 0.2rem 0; 
+  }
+
+  #admin_page_orders .product {
+    margin-bottom: 1rem;
+}
+
+/* -----Responsive----- */
+
+@media screen and (max-width: 1000px){
+    #products-grid, #user-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    #products-grid, #user-products-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

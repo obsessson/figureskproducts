@@ -3,7 +3,7 @@ let productsArray = [];
 let xhr = new XMLHttpRequest();
 let url = 'https://market-c850.restdb.io/rest';
 
-xhr.open('GET',url + '/products');
+xhr.open('GET',url + '/product ');
 
 xhr.setRequestHeader("content-type", "application/json");
 xhr.setRequestHeader("x-apikey", "693d982d093655f04540844f");
